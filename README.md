@@ -66,10 +66,9 @@ Compare predictions against radiologist-reviewed ground truth using accuracy, pr
 | **Pneumonia** | 0.536 | **0.954** | 0.477 | 0.443 |
 | **Atelectasis** | 0.947 | **0.985** | 0.883 | 0.908 |
 | **Pulmonary Edema** | 0.890 | **0.982** | 0.853 | 0.881 |
- 
- 
-## Key Findings
 
+ 
+## Key Findings
 1. CheXbert performed the best overall, achieving a **Macro-F1 score of 0.973** across the evaluated conditions and demonstrated its strong contextual understanding of radiology-specific language and uncertainty expressions
 2. Automated annotation pipelines can reduce the need for manual report labeling, making it easier to build larger datasets for clinical AI research
 3. The regex cascade was able to identify rare findings such as **lung metastasis** which are not covered by the other annotation methods
